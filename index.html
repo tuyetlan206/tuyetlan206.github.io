@@ -1,71 +1,94 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.">
-    <title>Portfolio Cá Nhân | Kinh tế Phát triển</title>
+    <meta name="description" content="Tuyet Lan, Development Economics student focusing on Tourism and Service Economics at the University of Economics and Business, Vietnam National University.">
+    <title>Tuyet Lan | Development Economics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <nav class="nav container" aria-label="Điều hướng chính">
-            <a class="nav-brand" href="#portfolio">Portfolio</a>
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a class="nav-brand" href="#">Tuyet Lan</a>
             <div class="nav-links">
-                <a href="#gioi-thieu">Giới thiệu</a>
-                <a href="#linh-vuc-quan-tam">Lĩnh vực quan tâm</a>
-                <a href="#ky-nang">Kỹ năng</a>
-                <a href="#lien-he">Liên hệ</a>
+                <a href="#about">About</a>
+                <a href="#interests">Research Interests</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-image">
+                <img src="./lan.jpg" alt="Portrait of Tuyet Lan" width="220" height="220">
+            </div>
+            <div class="hero-text">
+                <h1>Tuyet Lan</h1>
+                <p class="tagline">Development Economics Student</p>
+                <p>I am a student majoring in Development Economics, with an academic focus on Tourism and Service Economics at the University of Economics and Business, Vietnam National University.</p>
+            </div>
+        </div>
     </header>
+
     <main>
-        <section class="hero" id="portfolio">
-            <div class="container hero-content">
-                <p class="eyebrow">Portfolio Cá Nhân</p>
-                <h1>Sinh viên Kinh tế Phát triển</h1>
-                <p class="hero-intro">Tôi là sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.</p>
+        <section id="about">
+            <div class="container narrow">
+                <h2>About Me</h2>
+                <p>I have a strong interest in academic research, particularly in green consumer behavior, carbon credit markets, and sustainable tourism management. My goal is to apply economic models and analytical methods to environmental issues and contribute to sustainable development.</p>
             </div>
         </section>
-        <section class="section" id="gioi-thieu">
-            <div class="container content-narrow">
-                <p class="section-label">Giới thiệu</p>
-                <h2>Định hướng học thuật</h2>
-                <p>Tôi có niềm đam mê lớn với nghiên cứu học thuật, đặc biệt trong các lĩnh vực hành vi tiêu dùng xanh, thị trường tín chỉ carbon, và quản lý du lịch bền vững. Mục tiêu của tôi là áp dụng các mô hình kinh tế học để giải quyết các bài toán về môi trường và đóng góp vào sự phát triển bền vững của cộng đồng.</p>
+
+        <section id="interests" class="alt">
+            <div class="container narrow">
+                <h2>Research Interests</h2>
+                <ul class="grid interests">
+                    <li>Green Consumer Behavior</li>
+                    <li>Carbon Credit Markets</li>
+                    <li>Sustainable Tourism</li>
+                    <li>Environmental and Development Economics</li>
+                </ul>
             </div>
         </section>
-        <section class="section section-muted" id="linh-vuc-quan-tam">
-            <div class="container">
-                <p class="section-label">Lĩnh vực quan tâm</p>
-                <h2>Các chủ đề quan tâm</h2>
-                <div class="card-grid interests-grid">
-                    <article class="card"><h3>Hành vi tiêu dùng xanh</h3></article>
-                    <article class="card"><h3>Thị trường tín chỉ carbon</h3></article>
-                    <article class="card"><h3>Du lịch bền vững</h3></article>
-                    <article class="card"><h3>Kinh tế &amp; môi trường</h3></article>
+
+        <section id="skills">
+            <div class="container narrow">
+                <h2>Skills</h2>
+                <div class="grid skills">
+                    <div>
+                        <h3>Data Analysis &amp; Econometrics</h3>
+                        <p>EViews, Excel</p>
+                    </div>
+                    <div>
+                        <h3>Market Research &amp; Consumer Behavior</h3>
+                    </div>
+                    <div>
+                        <h3>Languages</h3>
+                        <p>English, Chinese (HSK 2)</p>
+                    </div>
+                    <div>
+                        <h3>Project Management &amp; Communications</h3>
+                        <p>Student projects and project communications</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section" id="ky-nang">
-            <div class="container">
-                <p class="section-label">Kỹ năng</p>
-                <h2>Năng lực chuyên môn</h2>
-                <div class="card-grid skills-grid">
-                    <article class="card skill-card"><h3>Phân tích dữ liệu &amp; Kinh tế lượng</h3><p>EViews, Excel</p></article>
-                    <article class="card skill-card"><h3>Nghiên cứu thị trường</h3><p>Hành vi người tiêu dùng</p></article>
-                    <article class="card skill-card"><h3>Ngoại ngữ</h3><p>Tiếng Anh, Tiếng Trung (HSK2)</p></article>
-                    <article class="card skill-card"><h3>Quản lý dự án</h3><p>Truyền thông dự án sinh viên</p></article>
-                </div>
-            </div>
-        </section>
-        <section class="section section-muted contact-section" id="lien-he">
-            <div class="container content-narrow">
-                <p class="section-label">Liên hệ</p>
-                <h2>Kết nối</h2>
-                <p>Thông tin liên hệ sẽ được cập nhật.</p>
+
+        <section id="contact" class="alt">
+            <div class="container narrow">
+                <h2>Contact</h2>
+                <p class="center">Contact information will be updated soon.</p>
             </div>
         </section>
     </main>
-    <footer class="site-footer"><div class="container">© Portfolio Cá Nhân</div></footer>
+
+    <footer>
+        <div class="container">&copy; Tuyet Lan</div>
+    </footer>
 </body>
 </html>
