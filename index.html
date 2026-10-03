@@ -3,38 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Cá Nhân</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 30px; color: #333; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        .intro { font-size: 1.1em; color: #555; font-weight: bold; }
-        .section { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 25px; }
-        a { color: #3498db; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <meta name="description" content="Sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.">
+    <title>Portfolio Cá Nhân | Kinh tế Phát triển</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>Xin chào! 👋</h1>
-    <p class="intro">Tôi là sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.</p>
-    
-    <div class="section">
-        <h2>Về bản thân</h2>
-        <p>Tôi có niềm đam mê lớn với nghiên cứu học thuật, đặc biệt trong các lĩnh vực hành vi tiêu dùng xanh, thị trường tín chỉ carbon, và quản lý du lịch bền vững. Mục tiêu của tôi là áp dụng các mô hình kinh tế học để giải quyết các bài toán về môi trường và đóng góp vào sự phát triển bền vững của cộng đồng.</p>
-    </div>
-
-    <div class="section">
-        <h2>Kinh nghiệm & Kỹ năng</h2>
-        <ul>
-            <li>Phân tích dữ liệu & Kinh tế lượng (EViews, Excel)</li>
-            <li>Nghiên cứu thị trường & Hành vi người tiêu dùng</li>
-            <li>Kỹ năng ngoại ngữ: Tiếng Anh và Tiếng Trung (HSK2)</li>
-            <li>Quản lý dự án & Truyền thông dự án sinh viên</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Liên hệ</h2>
-        <p>Email: dia-chi-email-cua-ban@gmail.com | <a href="https://linkedin.com">LinkedIn</a></p>
-    </div>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Điều hướng chính">
+            <a class="nav-brand" href="#portfolio">Portfolio</a>
+            <div class="nav-links">
+                <a href="#gioi-thieu">Giới thiệu</a>
+                <a href="#linh-vuc-quan-tam">Lĩnh vực quan tâm</a>
+                <a href="#ky-nang">Kỹ năng</a>
+                <a href="#lien-he">Liên hệ</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="portfolio">
+            <div class="container hero-content">
+                <p class="eyebrow">Portfolio Cá Nhân</p>
+                <h1>Sinh viên Kinh tế Phát triển</h1>
+                <p class="hero-intro">Tôi là sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.</p>
+            </div>
+        </section>
+        <section class="section" id="gioi-thieu">
+            <div class="container content-narrow">
+                <p class="section-label">Giới thiệu</p>
+                <h2>Định hướng học thuật</h2>
+                <p>Tôi có niềm đam mê lớn với nghiên cứu học thuật, đặc biệt trong các lĩnh vực hành vi tiêu dùng xanh, thị trường tín chỉ carbon, và quản lý du lịch bền vững. Mục tiêu của tôi là áp dụng các mô hình kinh tế học để giải quyết các bài toán về môi trường và đóng góp vào sự phát triển bền vững của cộng đồng.</p>
+            </div>
+        </section>
+        <section class="section section-muted" id="linh-vuc-quan-tam">
+            <div class="container">
+                <p class="section-label">Lĩnh vực quan tâm</p>
+                <h2>Các chủ đề quan tâm</h2>
+                <div class="card-grid interests-grid">
+                    <article class="card"><h3>Hành vi tiêu dùng xanh</h3></article>
+                    <article class="card"><h3>Thị trường tín chỉ carbon</h3></article>
+                    <article class="card"><h3>Du lịch bền vững</h3></article>
+                    <article class="card"><h3>Kinh tế &amp; môi trường</h3></article>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="ky-nang">
+            <div class="container">
+                <p class="section-label">Kỹ năng</p>
+                <h2>Năng lực chuyên môn</h2>
+                <div class="card-grid skills-grid">
+                    <article class="card skill-card"><h3>Phân tích dữ liệu &amp; Kinh tế lượng</h3><p>EViews, Excel</p></article>
+                    <article class="card skill-card"><h3>Nghiên cứu thị trường</h3><p>Hành vi người tiêu dùng</p></article>
+                    <article class="card skill-card"><h3>Ngoại ngữ</h3><p>Tiếng Anh, Tiếng Trung (HSK2)</p></article>
+                    <article class="card skill-card"><h3>Quản lý dự án</h3><p>Truyền thông dự án sinh viên</p></article>
+                </div>
+            </div>
+        </section>
+        <section class="section section-muted contact-section" id="lien-he">
+            <div class="container content-narrow">
+                <p class="section-label">Liên hệ</p>
+                <h2>Kết nối</h2>
+                <p>Thông tin liên hệ sẽ được cập nhật.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container">© Portfolio Cá Nhân</div></footer>
 </body>
 </html>
