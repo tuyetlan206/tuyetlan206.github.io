@@ -83,6 +83,8 @@ section.alt { background: var(--color-bg-alt); }
     font-weight: 500;
     color: var(--color-dark);
 }
+#contact a { color: var(--color-secondary); text-decoration: none; }
+#contact a:hover { color: var(--color-accent); text-decoration: underline; }
 .skills > div { padding-left: 1rem; border-left: 2px solid var(--color-border); }
 
 footer { background: var(--color-dark); color: #e5e7eb; text-align: center; padding: 1rem 0; font-size: 0.9rem; }
