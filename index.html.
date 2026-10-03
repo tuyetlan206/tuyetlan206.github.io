@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 30px; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .intro { font-size: 1.1em; color: #555; font-weight: bold; }
+        .section { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 25px; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Xin chào! 👋</h1>
+    <p class="intro">Tôi là sinh viên chuyên ngành Kinh tế Phát triển, định hướng Kinh tế Du lịch và Dịch vụ tại Đại học Kinh tế - ĐHQGHN.</p>
+    
+    <div class="section">
+        <h2>Về bản thân</h2>
+        <p>Tôi có niềm đam mê lớn với nghiên cứu học thuật, đặc biệt trong các lĩnh vực hành vi tiêu dùng xanh, thị trường tín chỉ carbon, và quản lý du lịch bền vững. Mục tiêu của tôi là áp dụng các mô hình kinh tế học để giải quyết các bài toán về môi trường và đóng góp vào sự phát triển bền vững của cộng đồng.</p>
+    </div>
+
+    <div class="section">
+        <h2>Kinh nghiệm & Kỹ năng</h2>
+        <ul>
+            <li>Phân tích dữ liệu & Kinh tế lượng (EViews, Excel)</li>
+            <li>Nghiên cứu thị trường & Hành vi người tiêu dùng</li>
+            <li>Kỹ năng ngoại ngữ: Tiếng Anh và Tiếng Trung (HSK2)</li>
+            <li>Quản lý dự án & Truyền thông dự án sinh viên</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Liên hệ</h2>
+        <p>Email: dia-chi-email-cua-ban@gmail.com | <a href="https://linkedin.com">LinkedIn</a></p>
+    </div>
+</body>
+</html>
